@@ -7,6 +7,9 @@
   "license": "MIT",
   "private": true,
   "main": "./src/index.js",
+  "files": [
+    "src/"
+  ],
   "exports": {
     "./main": "./src/index.js",
     "./base": "./src/index.js",
@@ -19,9 +22,6 @@
     "check": "npm run lint;",
     "prepublish": "npm run check"
   },
-  "files": [
-    "dist/"
-  ],
   "keywords": [
     "eslint",
     "eslint-config"
