@@ -1,0 +1,49 @@
+{
+  "name": "eslint-config-mckravchyk",
+  "version": "1.0.0",
+  "description": "ESLint config for my projects",
+  "author": "Maciej Krawczyk",
+  "homepage": "https://github.com/mckravchyk/eslint-config",
+  "license": "MIT",
+  "private": true,
+  "main": "./src/index.js",
+  "exports": {
+    "./main": "./src/index.js",
+    "./base": "./src/index.js",
+    "./react": "./src/react.js",
+    "./svelte": "./src/svelte.js",
+    "./type_aware_linting": "./src/type_aware_linting.js"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "check": "npm run lint;",
+    "prepublish": "npm run check"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "peerDependencies": {
+    "eslint": "^8.45.0",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "eslint-plugin-import": "^2.27.5",
+
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8"
+  }
+}
