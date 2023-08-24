@@ -37,10 +37,9 @@
   },
   "peerDependencies": {
     "eslint": "^8.0",
-    "@typescript-eslint/eslint-plugin": "^5.0",
+    "@typescript-eslint/eslint-plugin": "^6.0",
+    "@typescript-eslint/parser": "^6.0",
     "eslint-plugin-import": "^2.0",
-
-    "@typescript-eslint/parser": "^5.0",
     "eslint-plugin-jest": "^27.2.3",
     "eslint-plugin-svelte3": "^4.0.0",
     "eslint-plugin-jsx-a11y": "^6.0",
