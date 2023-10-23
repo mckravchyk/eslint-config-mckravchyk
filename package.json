@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ESLint config for my projects",
   "author": "Maciej Krawczyk",
-  "homepage": "https://github.com/mckravchyk/eslint-config",
+  "homepage": "https://github.com/mckravchyk/eslint-config-mckravchyk",
   "license": "MIT",
   "private": true,
   "main": "./src/index.js",
